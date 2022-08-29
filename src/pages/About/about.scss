@@ -1,0 +1,150 @@
+.aboutContainer {
+  width: 100%;
+  overflow-x: hidden;
+  .aboutWrapper {
+    width: 100%;
+    z-index: 9999;
+    .aboutData {
+      max-width: 1080px;
+      width: 100%;
+      display: flex;
+      padding: 3%;
+      gap: 10px;
+    }
+  }
+}
+
+.heroImage {
+  flex-basis: 50%;
+  position: relative;
+  .heroImgItem {
+    width: 250%;
+    margin-left: 10%;
+  }
+}
+
+.aboutHead {
+  flex-basis: 50%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .headText {
+    color: rgb(146, 146, 146);
+  }
+  .heroTextContainer {
+    display: flex;
+    gap: 8px;
+    .heroText {
+      color: rgb(255, 166, 0);
+    }
+    .heroTextSecond {
+      color: darkgreen;
+    }
+    .heroTextThird {
+      color: rgb(255, 166, 0);
+    }
+  }
+  .heroTextFour {
+    color: darkgreen;
+  }
+  .heroPara {
+    width: 600px;
+    .heroParagraph {
+      width: 600px;
+      color: black;
+      font-weight: 500;
+    }
+  }
+  .heroHome {
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(57, 77, 254);
+    color: white;
+    cursor: pointer;
+    &:hover {
+      color: black;
+      background-color: aquamarine;
+    }
+  }
+}
+
+.footComponents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .herophone {
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+  }
+  .heroSecondParagraph {
+    width: 600px;
+    color: black;
+    font-weight: 500;
+  }
+}
+
+.weBest {
+  width: 100%;
+  .heroSecondImgItem {
+    width: 340px;
+  }
+}
+
+.workingAbout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(236, 236, 236);
+  padding: 10px;
+}
+.workImages {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  .workImageItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 7px;
+  }
+}
+
+.buyAplan {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 30px;
+  background-color: aliceblue;
+  cursor: pointer;
+
+  &:hover {
+    text-transform: uppercase;
+  }
+  .planBody {
+    font-size: 20px;
+    font-weight: 500;
+    
+  }
+}

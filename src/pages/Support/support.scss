@@ -1,0 +1,87 @@
+.supportContainer {
+  width: 100%;
+  .supportWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      padding: 20px;
+      margin: 10px;
+      width: 250px;
+    }
+    .ticketTable {
+      width: 1080px;
+    }
+    .tktFull {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      color: #555;
+      font-weight: 700;
+    }
+    .datatableSupport {
+      height: 400px;
+      width: 1080px;
+      overflow: auto;
+      padding: 20px;
+      overflow: auto;
+
+      .datatableTitleSupport {
+        width: 100%;
+        font-size: 24px;
+        color: gray;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+
+.cellAction {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .viewButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px dotted rgba(0, 0, 139, 0.596);
+    cursor: pointer;
+  }
+
+  .deleteButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px dotted rgba(220, 20, 60, 0.6);
+    cursor: pointer;
+  }
+
+  .updateButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: chartreuse;
+    border: 1px dotted rgba(30, 220, 20, 0.6);
+    cursor: pointer;
+  }
+}
+
+.addTicket{
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: rgb(44, 114, 255);
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(132, 251, 255);
+    color: black;
+  }
+}

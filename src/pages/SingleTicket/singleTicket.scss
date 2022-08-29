@@ -1,0 +1,155 @@
+.list {
+  display: flex;
+  width: 100%;
+  .listContainer {
+    flex: 6;
+  }
+}
+
+.ticketDet {
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.ticketDec {
+  width: 90%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .tktDetail {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    .subject {
+      color: #555;
+      font-weight: 800;
+    }
+  }
+}
+
+.chatWindow {
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  .tktConversation {
+    width: 97%;
+  }
+}
+.msgHead {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  .fromMe {
+    color: #555;
+    font-weight: 800;
+  }
+}
+
+.tktConversation {
+  -webkit-box-shadow: -2px 1px 7px 0px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: -2px 1px 7px 0px rgba(0, 0, 0, 0.66);
+  box-shadow: -2px 1px 7px 0px rgba(0, 0, 0, 0.66);
+  border-radius: 8px;
+  padding: 5px;
+  height: 300px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.textMsg {
+  display: flex;
+  gap: 10px;
+  color: #555;
+  font-weight: 800;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  .chatText {
+    margin: 10px;
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .sendTkt {
+    color: #555;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14px;
+    background-color: rgb(152, 240, 255);
+    cursor: pointer;
+  }
+  button:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+  }
+}
+
+.tktClose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .tktClosed {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #555;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 152, 152);
+  }
+  button:hover {
+    color: white;
+    background-color: black;
+  }
+}
+
+.closeConfirm {
+  display: flex;
+  gap: 10px;
+  color: #555;
+  font-weight: 800;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 0;
+  .closeConfirmBtn {
+    display: flex;
+    gap: 10px;
+    .Yes {
+      padding: 5px;
+      border: none;
+      color: #555;
+      font-weight: 800;
+      cursor: pointer;
+      width: 70px;
+      border-radius: 4px;
+      background-color: rgb(135, 255, 137);
+    }
+    .no {
+      padding: 5px;
+      border: none;
+      color: #555;
+      font-weight: 800;
+      cursor: pointer;
+      width: 70px;
+      border-radius: 4px;
+      background-color: rgb(255, 163, 135);
+    }
+    button:hover{
+      color: white;
+      background-color: rgb(45, 61, 241);
+    }
+  }
+}

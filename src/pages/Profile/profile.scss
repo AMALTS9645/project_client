@@ -1,0 +1,144 @@
+.single {
+  background-color: #003580;
+  position: absolute;
+  top: 40px;
+  display: flex;
+  width: 100%;
+  .singleContainer {
+    flex: 6;
+
+    .top {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .left {
+        background-color: #ffffff;
+        flex: 1;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        padding: 20px;
+        position: relative;
+        .title {
+          color: rgb(26, 26, 26);
+          font-size: 18px;
+        }
+
+        .item {
+          display: flex;
+          gap: 20px;
+
+          .itemImg {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .details {
+            .itemTitle {
+              margin-bottom: 10px;
+              color: rgb(28, 28, 28);
+            }
+
+            .detailItem {
+              margin-bottom: 10px;
+              font-size: 14px;
+
+              .itemKey {
+                font-weight: bold;
+                color: rgb(28, 28, 28);
+                margin-right: 5px;
+              }
+
+              .itemValue {
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.imgItem {
+  flex: 1;
+  text-align: center;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.formInput {
+  width: 40%;
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .icon {
+      cursor: pointer;
+    }
+  }
+}
+
+.savebuttons {
+  font-size: 20px;
+  padding: 10px;
+  gap: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+}
+
+.editButtons {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.userdetails {
+  width: 250px;
+  .nameInput {
+    border: 1px solid black;
+    margin: 10px;
+  }
+}
+
+.editButton {
+  border: none;
+  height: 96%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 999;
+  .closeButtons {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+  }
+}
+
+.myPost {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #003580;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}

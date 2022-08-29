@@ -1,0 +1,43 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    height: 300px;
+    overflow-y:auto;
+    cursor: pointer;
+}
+
+.fpItem{
+    display: flex;
+    flex:1;
+    gap: 10px;
+    flex-direction: column;
+   
+}
+
+.fpImg{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fpName{
+    font-weight: bold;
+}
+
+.fpCity{
+    font-weight: 300;
+}
+
+.fpPrice{
+    font-weight: 500;
+}
+
+.linkData{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,45 @@
+.pSuccess {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .pSuccessWrapper {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .successItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .verified {
+    display: flex;
+    gap: 5px;
+    h1 {
+      font-weight: 800;
+    }
+  }
+  .redID{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(121, 255, 87);
+    cursor: pointer;
+    font-weight: 500;
+  }
+  button:hover{
+    background-color: rgb(100, 255, 255);
+  }
+}

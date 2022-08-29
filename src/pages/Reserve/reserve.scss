@@ -1,0 +1,50 @@
+.reserve {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  .rContainer {
+    padding: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: darkblue;
+    border-radius: 10px 10px 0 0;
+    .rClose {
+      cursor: pointer;
+      font-size: 23px;
+      color: rgb(255, 255, 255);
+    }
+  }
+}
+.chatConfirm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #003b9a;
+  border-radius: 0 0 10px 10px;
+  padding: 15px;
+  .chatText {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+  }
+  .btnClick {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    .chatButton {
+      padding: 5px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #00a2ff;
+      color: white;
+    }
+    :hover {
+      background-color: white;
+      color: #00a2ff;
+    }
+  }
+}
